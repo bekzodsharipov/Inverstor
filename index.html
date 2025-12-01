@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inverstor</title>
+  <style>
+a {text-decoration: none;color: white;}.date__container, .date__top {display: flex;align-items: center;}.center, .container, .date, .date__inner-list, .date__inner-text {position: relative;}* {margin: 0;padding: 0;box-sizing: border-box;}body {font-family: Montserrat, sans-serif;font-weight: 400;}a, li, ol, ul {list-style: none;text-decoration: none;}.container {max-width: 1624px;width: 100%;margin: 0 auto;padding: 0 10px;position: relative;}.date {background-color: #111A29;color: #fff;overflow: hidden;min-height: 100vh;}.date__top-left {display: flex;align-items: center;justify-content: center;}.date__top-left {padding: 5px 22px 5px 22px;border-radius: 50px;border: 1px solid rgba(255, 255, 255, 0.4);margin-right: 12px;}.date__top-left-dot {background-color: #33AD15;width: 11px;height: 11px;border-radius: 50%;margin-right: 5px;}.date__top-left-title {font-weight: 500;font-size: 13px;}.date__inner-title {font-family: Mulish, sans-serif;font-weight: 900;font-size: clamp(27px, 8vw, 34px);text-transform: uppercase;max-width: 352px;line-height: 125%;margin-bottom: 7px;}.date__inner-title span {background: linear-gradient(90deg, #FFD72E 0%, #FFE680 50%, #FFD72E 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-clip: text;color: transparent;}.center {padding-top: 30px;width: 100%;}.date__inner-info {max-width: 251px;width: 100%;margin-left: auto;margin-right: auto;border-radius: 10px;padding: 6.5px 11.5px;background-color: #2664EB;margin-bottom: 23px;}.date__bottom-btn {font-weight: 800;font-size: clamp(15px, 4.5vw, 18px);padding: 25px 30px;border: none;height: 72px;cursor: pointer;border-radius: 20px;background-color: #2664EB;box-shadow: 0px 6px 0px 0px #003099;color: white;max-width: 331px;width: 100%;display: flex;align-items: center;justify-content: center;text-transform: uppercase;position: relative;z-index: 30;margin-left: auto;margin-right: auto;}.flex {display: flex;align-items: center;gap: 54px;margin-bottom: 30px;}.date__timer {max-width: fit-content;background-color: #fff;color: #000;z-index: 20;padding: 6px 12px 6px 12px;display: flex;align-items: center;justify-content: center;font-size: 28px;font-weight: 700;width: 100%;border-radius: 5px;box-shadow: 4px 4px 20px 1px #2664EB;position: relative;z-index: 30;}.date__inner-text {font-weight: 700;font-size: 17px;color: grey;z-index: 20;}.flex {flex-direction: column-reverse;align-items: start;gap: 25px;}.date {padding: 23px 0;text-align: center;}.date__container {flex-direction: column;max-width: 400px;padding-left: 20px;padding-right: 20px;}.date__top {flex-direction: column;margin-bottom: 10px;}.date__inner-list {text-align: start;z-index: 1;margin-bottom: 20px;max-width: 217px;width: 100%;z-index: 30;position: relative;display: flex;flex-direction: column;gap: 10px;}.date__inner-item {font-family: Montserrat, sans-serif;font-size: 12px;line-height: 19px;font-weight: 500;}.date__inner-item span {font-weight: 700;}.date__inner-list-title {font-size: 16px;max-width: 236px;line-height: 100%;margin-bottom: 4px;font-weight: 700;line-height: 28px;color: #808080;text-align: left;}.date__bottom {flex-direction: column-reverse;align-items: start;z-index: 20;}.gradient {background: linear-gradient(0deg, #111A29 50.48%, rgba(23, 23, 23, 0) 100%);width: 200%;left: -50%;height: 284px;position: absolute;bottom: -60px;z-index: 28;}.date__img {position: absolute;top: 4px;width: 232px;height: 351px;right: -45px;object-fit: contain;object-position: top;margin-left: auto;z-index: 20;margin-right: auto;}.date__inner-info-text {font-family: Montserrat, sans-serif;margin-bottom: 0px;text-align: center;font-size: 14px;font-weight: 500;line-height: 20px;color: white;}@keyframes slide {from {transform: translateX(0);}to {transform: translateX(-150%);}}.mb-20 {margin-bottom: 20px;}.speaker__gradient {background: var(--color-red-43, #2664EB);backdrop-filter: blur(0px);width: 268px;height: 295px;border-radius: 999px;opacity: 40%;position: absolute;top: 85px;left: 50%;}.free__text {font-size: 12px;position: relative;z-index: 30;margin-top: -45px;margin-right: -45px;margin-bottom: 15px;display: flex;justify-content: center;align-items: end;}.free__text img {display: flex;margin-bottom: -30px;margin-left: -7px;}@media (max-width:340px) {.date__img {right: -61px;}}
+  </style>
+  <link rel="stylesheet" href="./css/modal.css" media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="./css/modal.css" />
+  </noscript>
+</head>
+
+<body>
+  <div class="date">
+    <div class="container date__container">
+      <div class="date__top registerBtn">
+        <div class="date__top-left">
+          <div class="date__top-left-dot"></div>
+          <h4 class="date__top-left-title">4-5-Dekabr | 20:00</h4>
+        </div>
+      </div>
+      <h1 class="date__inner-title">
+        <span>Oylik ishchidan</span> <br>
+        erkin investorga
+      </h1>
+      <div class="date__inner-info">
+        <p class="date__inner-info-text">
+          2 kunlik darsda moliyaviy erkin <br> bo'lish formulasini olasiz
+        </p>
+      </div>
+      <div class="center">
+        <h4 class="date__inner-list-title">Bepul darsda siz:</h4>
+        <ul class="date__inner-list">
+          <li class="date__inner-item">
+            — Asosiy ishingizdan tashqari <br> passiv <span>foyda olishni</span> o'rganasiz
+          </li>
+          <li class="date__inner-item">
+            — <span>50$ bilan</span> ham investitsiyani <br> boshlash mumkinligini
+          </li>
+          <li class="date__inner-item">
+            — Men <span>o'zim tavsiya <br> qiladigan</span> aksiyalarni olasiz
+          </li>
+        </ul>
+        <img src="../images/speaker.avif" alt="Invertor rasmi" decoding="async" loading="lazy"
+          class="date__img only_tablet speakerImg" width="232" height="351">
+        <div class="speaker__gradient"></div>
+        <div class="flex">
+          <a class="date__bottom-btn registerBtn" href="https://t.me/+K24ByPzaxEA4ZGRi">
+            kanalga qo’shilish >>>
+          </a>
+          <div class="date__timer" id="timer">2:00</div>
+        </div>
+        <div class="gradient"></div>
+      </div>
+      <p class="free__text registerBtn">
+        Yopiq kanalga qo’shilish uchun bosing
+        <img src="./images/arrow.avif" alt="arrow" decoding="async" loading="lazy" class="free__text__arrow" width="88"
+          height="88">
+      </p>
+    </div>
+  </div>
+
+  <script defer src="./js/app.js"></script>
+  <!-- Meta Pixel Code -->
+  <script defer>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1180207190671809');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1180207190671809&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+</body>
+
+</html>

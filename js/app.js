@@ -1,0 +1,2 @@
+let time=2*60;const timerElement=document.getElementById("timer");const countdown=setInterval(()=>{let minutes=Math.floor(time/60);let seconds=time%60;seconds=seconds<10?"0"+seconds:seconds;timerElement.textContent=`${minutes}:${seconds}`;if(time<=0){clearInterval(countdown)}
+time--},1000)
